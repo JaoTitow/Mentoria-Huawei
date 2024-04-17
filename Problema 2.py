@@ -48,8 +48,6 @@ while pedido == True:
         qtItems[5] += 1
         qtItems[5] = lista[5] 
         preço_total += 1 * qt    
-    else:
-         print("Item não existente")
 
     #Repetição ou finalização
     pedido = str(input("Você deseja pedir algo mais? S/N \n")).upper()
