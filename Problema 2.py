@@ -1,4 +1,4 @@
-#Variaveis
+#Variaveis // Listas
 qtItems = [0, 0, 0, 0, 0, 0]
 lista = [1.2, 1.3, 1.5, 1.2, 1.3, 1]
 lista2 = [0, 0, 0, 0, 0, 0]
@@ -14,11 +14,12 @@ while pedido == True:
     
     #Verificação de código
     while cod < 101 or cod > 106:
-        print("Código Inválido")
+        print("\nCódigo Inválido")
         cod = int(input("Informe o código do item desejado: \n"))
     
     qt = int(input("Quantos itens você deseja? \n"))
     
+    #Calculo de preços // Quantidade de itens
     if cod == 101:
         qtItems[0] += 1
         qtItems[0] = lista[0] * qt
