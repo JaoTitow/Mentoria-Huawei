@@ -3,7 +3,7 @@ lista = [1.2, 1.3, 1.5, 1.2, 1.3, 1]
 lista2 = [0, 0, 0, 0, 0, 0]
 pedido = True
 
-print("Olá!\nSeja bem vindo, a nossa lojinha!\nEscolha um dos nossos produtos pelo código:\nCachorro Quente -- 101 -- R$1,2\nBauru Simples -- 102 -- R$1,3\nBauru com Ovo -- 103 -- R$1,5\nHambúrger -- 104 -- R$1,2\nCheeseburger -- 105 -- R$1,3\nRefrigerante -- 106 -- R$1,0\n")
+print("Olá!\nSeja bem vindo, a nossa lojinha!\nEscolha um dos nossos produtos pelo código:\nCachorro Quente -- 101 -- R$1,2\nBauru Simples -- 102 -- R$1,3\nBauru com Ovo -- 103 -- R$1,5\nHambúrger -- 104 -- R$1,2\nCheeseburger -- 105 -- R$1,3\nRefrigerante -- 106 -- R$1,0\n ---------------------")
 
 preço_total = 0
 while pedido == True:
