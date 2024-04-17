@@ -41,5 +41,6 @@ while x >= 0:
         cont3 += 1
     if x >= 76 and x <= 100:
         cont4 += 1
+
 #Resultados
 print("A quantidade de números no primeiro intervalo:", cont1, "A quantidade de números no segundo intervalo:", cont2,"A quantidade de números no terceiro intervalo:", cont3, "A quantiadde de números no Quarto intervalo:", cont4 )
