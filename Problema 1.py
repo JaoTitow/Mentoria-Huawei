@@ -43,4 +43,4 @@ while x >= 0:
         cont4 += 1
 
 #Resultados
-print("A quantidade de números no primeiro intervalo:", cont1, "A quantidade de números no segundo intervalo:", cont2,"A quantidade de números no terceiro intervalo:", cont3, "A quantiadde de números no Quarto intervalo:", cont4 )
+print("A quantidade de números no primeiro intervalo:", cont1, "\nA quantidade de números no segundo intervalo:", cont2,"\nA quantidade de números no terceiro intervalo:", cont3, "\nA quantiade de números no Quarto intervalo:", cont4 )
