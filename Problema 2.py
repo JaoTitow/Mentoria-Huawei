@@ -2,12 +2,12 @@
 qtItems = [0, 0, 0, 0, 0, 0]
 lista = [1.2, 1.3, 1.5, 1.2, 1.3, 1]
 pedido = True
+preço_total = 0
 
 #Mensagem
 print("Olá!\nSeja bem vindo, a nossa lojinha!\nEscolha um dos nossos produtos pelo código:\nCachorro Quente -- 101 -- R$1,2\nBauru Simples -- 102 -- R$1,3\nBauru com Ovo -- 103 -- R$1,5\nHambúrger -- 104 -- R$1,2\nCheeseburger -- 105 -- R$1,3\nRefrigerante -- 106 -- R$1,0\n ---------------------")
 
 #Pegando pedido
-preço_total = 0
 while pedido == True:
     cod = int(input("Informe o código do item desejado: \n"))    
     
@@ -46,7 +46,7 @@ while pedido == True:
         
     elif cod == 106:
         qtItems[5] += 1
-        qtItems[5] = lista[5] 
+        qtItems[5] = lista[5] * qt
         preço_total += 1 * qt    
 
     #Repetição ou finalização
