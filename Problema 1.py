@@ -1,7 +1,8 @@
-cont1 = 0 #
-cont2 = 0 #
-cont3 = 0 #
-cont4 = 0 #
+#Quantidades de números dentro de cada intervalo
+cont1 = 0 
+cont2 = 0 
+cont3 = 0 
+cont4 = 0 
 
 #Listas
 intervalo1 = []
@@ -28,8 +29,8 @@ for h in range(75, 100):
     h += 1
     intervalo4.append(h)
 
-x = 1
 #Repetição
+x = 1
 while x >= 0:
     x = int(input("Digite um número inteiro positivo para iniciar, e um número negativo para parar: \n"))
     if x <= 25 and x > 0:
