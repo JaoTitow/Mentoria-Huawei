@@ -9,7 +9,7 @@ preço_total = 0
 while pedido == True:
     cod = int(input("Informe o código do item desejado: \n"))    
     
-    while cod < 101 and cod > 106:
+    while cod < 101 or cod > 106:
         print("Código Inválido")
         cod = int(input("Informe o código do item desejado: \n"))
     
