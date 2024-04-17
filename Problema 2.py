@@ -1,9 +1,9 @@
-C101 = 1.2
-C102 = 1.3
-C103 = 1.5
-C104 = 1.2
-C105 = 1.3
-C106 = 1.0
+item1 = 1.2
+item2 = 1.3
+item3 = 1.5
+item4 = 1.2
+item5 = 1.3
+item6 = 1.0
 
 pedido = True
 
@@ -21,39 +21,47 @@ Refrigerante -- 106 -- R$1,0
 
 print(Mensagem)
 
+
+preço_total = 0
 while pedido == True:
-    item = int(input("Informe o código do item desejado: \n"))
+    cod = int(input("Informe o código do item desejado: \n"))
     
-    if item > 106 and item < 101:
+    if cod > 106 and item < 101:
         print("Item não existente")
     
-    if item == 101:
+    if cod == 101:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C101 += 1
-    elif item == 102:
+        item1 += 1
+        preço_total += 1.2 * qt
+    elif cod == 102:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C102 += 1
-    elif item == 103:
+        item2 += 1
+        preço_total += 1.3 * qt
+    elif cod == 103:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C103 += 1
-    elif item == 104:
+        cod += 1
+        preço_total += 1.5 * qt
+    elif item3 == 104:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C104 += 1
-    elif item == 105:
+        item4 += 1
+        preço_total += 1.2 * qt
+    elif cod == 105:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C105 += 1
-    elif item == 106:
+        item5 += 1
+        preço_total += 1.3 * qt
+    elif cod == 106:
         qt = int(input("Quantos itens você deseja?: \n"))
-        C106 += 1
+        item6 += 1
+        preço_total += 1 * qt
+        
     else:
          print("Item não existente")
 
-    
     pedido = str(input("Você deseja pedir algo mais? S/N \n")).upper()
     if pedido == "S":
         pedido = True
     elif pedido == "N":
-        break
-    
+        continue
+print("O valor total da compra foi de: ",preço_total)
     
     
