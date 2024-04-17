@@ -26,7 +26,7 @@ preço_total = 0
 while pedido == True:
     cod = int(input("Informe o código do item desejado: \n"))
     
-    if cod > 106 and item < 101:
+    if cod > 106 and cod < 101:
         print("Item não existente")
     
     if cod == 101:
