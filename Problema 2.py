@@ -62,6 +62,6 @@ while pedido == True:
         pedido = True
     elif pedido == "N":
         continue
-print("O valor total da compra foi de: ",preço_total)
+print("O valor total da compra foi de:",preço_total)
     
     
