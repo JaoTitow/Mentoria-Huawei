@@ -1,7 +1,6 @@
 #Variaveis // Listas
 qtItems = [0, 0, 0, 0, 0, 0]
 lista = [1.2, 1.3, 1.5, 1.2, 1.3, 1]
-lista2 = [0, 0, 0, 0, 0, 0]
 pedido = True
 
 #Mensagem
@@ -59,4 +58,4 @@ while pedido == True:
 
 #Exibindo resultado    
 print("O valor total da compra foi de:",preço_total,"\n")
-print("O valor de cada item foi de: Cachorro quente - R${} \nBauru Simples - R${} \nBauru com Ovo - R${} \nHambúrger - R${} \nCheeseburger - R${} \nRefrigerante - R${}".format(qtItems[0], qtItems[1], qtItems[2], qtItems[3], qtItems[4], qtItems[5]))
+print("O valor de cada item foi de: \nCachorro quente - R${} \nBauru Simples - R${} \nBauru com Ovo - R${} \nHambúrger - R${} \nCheeseburger - R${} \nRefrigerante - R${}".format(qtItems[0], qtItems[1], qtItems[2], qtItems[3], qtItems[4], qtItems[5]))
